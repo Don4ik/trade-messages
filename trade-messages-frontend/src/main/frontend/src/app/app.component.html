@@ -1,0 +1,8 @@
+<p>Trade Messages:</p>
+<ul>
+  <li *ngFor="let result of results; let i = index">
+    Message No: {{i}}, User ID: {{result.userId}}, Currency From: {{result.currencyFrom}}, Currency To: {{result.currencyTo}},
+    Amount Sell: {{result.amountSell}}, Amount Buy: {{result.amountBuy}}, Rate: {{result.rate}}, Time Placed: {{result.timePlaced}},
+    Originating Country: {{result.originatingCountry}}
+  </li>
+</ul>
