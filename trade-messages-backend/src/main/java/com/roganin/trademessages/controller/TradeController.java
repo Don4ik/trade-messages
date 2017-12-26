@@ -17,6 +17,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 @RequestMapping("/messages")
 public class TradeController {
 
+    // Test
     private final TradeService tradeService;
 
     private static final Logger log = LoggerFactory.getLogger(TradeController.class);
